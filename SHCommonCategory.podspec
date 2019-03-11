@@ -30,7 +30,7 @@ s.source           = { :git => 'https://github.com/Dreamhigh66/SHCommonCategory.
 
 s.ios.deployment_target = '8.0'
 
-s.source_files = 'SHCommonCategory/Classes/**/*'
+s.source_files = 'SHCommonCategory/Classes/SHCommonCategory/**/**.{h,m}','SHCommonCategory/Classes/Vendors/**/**.{h,m}'
 
 # s.resource_bundles = {
 #   'SHCommonCategory' => ['SHCommonCategory/Assets/*.png']
